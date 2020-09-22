@@ -681,6 +681,7 @@ GameObject:
   - component: {fileID: 192095283}
   - component: {fileID: 192095282}
   - component: {fileID: 192095279}
+  - component: {fileID: 192095290}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -704,7 +705,7 @@ MonoBehaviour:
   scrollPos: {x: 266.70096, y: 24.206177}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 280
+  blockViewHeight: 501
   zoom: 0.97
   scrollViewRect:
     serializedVersion: 2
@@ -713,9 +714,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 192095276}
+  - {fileID: 192095226}
   selectedCommands:
-  - {fileID: 192095281}
+  - {fileID: 192095290}
   variables:
   - {fileID: 192095217}
   - {fileID: 192095216}
@@ -856,7 +857,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 258
-    y: 282
+    y: 280.9691
     width: 107.73196
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -866,7 +867,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 192095213}
   commandList:
-  - {fileID: 192095221}
   - {fileID: 192095220}
   - {fileID: 192095219}
   - {fileID: 192095218}
@@ -874,6 +874,7 @@ MonoBehaviour:
   - {fileID: 192095224}
   - {fileID: 192095223}
   - {fileID: 192095222}
+  - {fileID: 192095221}
   - {fileID: 192095225}
   suppressAllAutoSelections: 0
 --- !u!4 &192095205
@@ -1363,6 +1364,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 192095290}
   - {fileID: 192095227}
   - {fileID: 192095228}
   suppressAllAutoSelections: 0
@@ -7039,6 +7041,34 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &192095290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192095198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 79
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1632427616}
+  targetComponentAssemblyName: testDice, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: testDice
+  targetMethod: goDice
+  targetMethodText: 'goDice (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!1 &222343403
 GameObject:
   m_ObjectHideFlags: 0
@@ -9430,6 +9460,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1626094346}
   m_CullTransparentMesh: 0
+--- !u!1 &1632427616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1632427619}
+  - component: {fileID: 1632427618}
+  - component: {fileID: 1632427617}
+  m_Layer: 0
+  m_Name: dice
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1632427617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632427616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 679930d2431f8064da3b74079187e24e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1632427618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632427616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa0681581a2d8e42a6caa22205a0309, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rollSpeed: 0.25
+--- !u!4 &1632427619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632427616}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.6930847, y: 16.112375, z: -1147.5664}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1679442833
 GameObject:
   m_ObjectHideFlags: 0
