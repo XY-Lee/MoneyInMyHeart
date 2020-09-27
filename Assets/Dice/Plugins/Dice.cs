@@ -16,6 +16,7 @@
  */ 
 using UnityEngine;
 using System.Collections;
+using Fungus;
 
 /// <summary>
 /// This dice dupporting class has some 'static' methods to help you throwning dice
@@ -51,18 +52,26 @@ public class Dice : MonoBehaviour {
 	// reference to the dice that have to be rolled
     private static ArrayList rollQueue = new ArrayList();
 	// reference to all dice, created by Dice.Roll
-	private static ArrayList allDice = new ArrayList();
+	public static ArrayList allDice = new ArrayList();
 	// reference to the dice that are rolling
     private static ArrayList rollingDice = new ArrayList();
 
-	//------------------------------------------------------------------------------------------------------------------------------
-	// public methods
-	//------------------------------------------------------------------------------------------------------------------------------	
-		
-	/// <summary>
-	/// This method will create/instance a prefab at a specific position with a specific rotation and a specific scale and assign a material
-	/// </summary>
-	public static GameObject prefab(string name, Vector3 position, Vector3 rotation, Vector3 scale, string mat) 
+  //------------------------------------------------------------------------------------------------------------------------------
+  // public methods
+  //------------------------------------------------------------------------------------------------------------------------------	
+
+  public static Fungus.GameObjectCollection allDiceCollection { get {
+      ArrayList rtn = new ArrayList() ;
+      Fungus.GameObjectCollection rtnn = new Fungus.GameObjectCollection();
+      foreach ( RollingDie die in Dice.allDice) {
+        rtnn.Add(die.gameObject);
+      }
+      return rtnn; } }
+
+  /// <summary>
+  /// This method will create/instance a prefab at a specific position with a specific rotation and a specific scale and assign a material
+  /// </summary>
+  public static GameObject prefab(string name, Vector3 position, Vector3 rotation, Vector3 scale, string mat) 
 	{		
 		// load the prefab from Resources
         Object pf = Resources.Load("Prefabs/" + name);
