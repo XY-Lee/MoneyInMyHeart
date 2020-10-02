@@ -45,10 +45,16 @@ public class testDice : MonoBehaviour {
     GameObject die = GameObject.Find("d6(Clone)");
     die.transform.position = v;
     // apply the force impuls
-    die.GetComponent<Rigidbody>().AddForce(Force(), ForceMode.Impulse);
+    die.GetComponent<Rigidbody>().AddForce(new Vector3(0,0,20), ForceMode.Impulse);
     // apply a random torque
-    die.GetComponent<Rigidbody>().AddTorque(new Vector3(-50 * Random.value * die.transform.localScale.magnitude, -50 * Random.value * die.transform.localScale.magnitude, -50 * Random.value * die.transform.localScale.magnitude), ForceMode.Impulse);
+    die.GetComponent<Rigidbody>().AddTorque(new Vector3(-50, -50, -50), ForceMode.Impulse);
     //Dice.Roll("1d6", "d6-" + randomColor, v, Force());
+  }
+
+  public void hideDice() {
+    GameObject pos = GameObject.Find("暫時放骰子的平面定位點");
+    GameObject die = GameObject.Find("d6(Clone)");
+    die.transform.position = pos.transform.position;
   }
 
   public int getVelue() {
