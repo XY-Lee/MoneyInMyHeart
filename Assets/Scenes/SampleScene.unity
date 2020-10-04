@@ -240,8 +240,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 35655576}
-  selectedCommands:
-  - {fileID: 35655572}
+  selectedCommands: []
   variables:
   - {fileID: 35655563}
   - {fileID: 35655562}
@@ -440,7 +439,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 214
     y: 110
-    width: 110
+    width: 70
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -847,7 +846,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69
     y: 68
-    width: 134
+    width: 94
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1012,7 +1011,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 340
     y: 110
-    width: 99
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1087,7 +1086,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 318.5
     y: 306.5
-    width: 100
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1141,7 +1140,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 522
     y: 183
-    width: 74
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1625,7 +1624,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 345.5
     y: 231.5
-    width: 100
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2115,7 +2114,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 331
     y: 171
-    width: 99
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3097,7 +3096,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 146
     y: 308
-    width: 110
+    width: 70
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4887,11 +4886,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 305.02274, y: 44.36412}
-  variablesScrollPos: {x: 0, y: 295}
+  scrollPos: {x: 344.76074, y: 83.925415}
+  variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 501
-  zoom: 0.94000006
+  zoom: 0.88000005
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -5047,7 +5046,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 424
     y: 113
-    width: 69.57446
+    width: 77.04545
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5212,7 +5211,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 254
     y: 42
-    width: 73.82979
+    width: 84.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6751,7 +6750,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 410.0309
     y: 279.9691
-    width: 73.82979
+    width: 84.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6785,7 +6784,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 587.06384
     y: 344.9691
-    width: 69.57446
+    width: 77.04545
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7971,7 +7970,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 195.15465
     y: 404.65976
-    width: 63.191486
+    width: 72.5
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8861,7 +8860,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 283.45364
     y: 406.82465
-    width: 101.48936
+    width: 114.54545
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9034,7 +9033,7 @@ MonoBehaviour:
   collection: 0000000000000000
 --- !u!114 &192095331
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9792,7 +9791,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 999
-  m_Sprite: {fileID: 21300000, guid: d91edf1189a01ef49b3bf7e738a92a4e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 369e0b8c55e6f2d46a4c659f1e4dbaa9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9812,7 +9811,7 @@ Transform:
   m_GameObject: {fileID: 344963317}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.981, y: 17.53, z: 0}
-  m_LocalScale: {x: 0.12385156, y: 0.12385156, z: 0.12385156}
+  m_LocalScale: {x: 0.22531076, y: 0.22531076, z: 0.22531076}
   m_Children: []
   m_Father: {fileID: 594196996}
   m_RootOrder: 1
@@ -10139,6 +10138,133 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &516954716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 516954718}
+  - component: {fileID: 516954717}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &516954717
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516954716}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 26dfc57970f518342afe6017eaf0e71e, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &516954718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516954716}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.0744689, y: 51.100533, z: -21371.344}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -10386,7 +10512,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.6, y: 12.8}
+    oldSize: {x: 9, y: 8.49}
     newSize: {x: 9.6, y: 12.8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -10434,7 +10560,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 999
-  m_Sprite: {fileID: 21300000, guid: ab0f5bbb7f3b91341b7f50e7a6fc4305, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 16c1bfaaec505634bb093913562d2fd4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10454,7 +10580,7 @@ Transform:
   m_GameObject: {fileID: 566920870}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.04, y: 17.64, z: 0}
-  m_LocalScale: {x: 0.058890175, y: 0.058890175, z: 0.058890175}
+  m_LocalScale: {x: 0.20338246, y: 0.17983529, z: 0.17983529}
   m_Children: []
   m_Father: {fileID: 594196996}
   m_RootOrder: 0
