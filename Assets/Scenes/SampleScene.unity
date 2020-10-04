@@ -5496,11 +5496,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 306.2356, y: 96.273}
+  scrollPos: {x: 289.6823, y: 157.30511}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 501
-  zoom: 0.82
+  zoom: 0.90999997
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -5508,9 +5508,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 192095315}
-  selectedCommands:
-  - {fileID: 192095325}
+  - {fileID: 192095293}
+  selectedCommands: []
   variables:
   - {fileID: 192095217}
   - {fileID: 192095216}
@@ -5805,7 +5804,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 604.47626
     y: 447.16284
-    width: 93.902435
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5833,7 +5832,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 165.44682
     y: 422.45844
-    width: 93.902435
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6256,7 +6255,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 185.40277
     y: 224.7848
-    width: 93.902435
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6550,7 +6549,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 547
     y: 218
-    width: 93.902435
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7730,7 +7729,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 410.0309
     y: 279.9691
-    width: 115.85366
+    width: 82.52747
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7764,7 +7763,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 572.7782
     y: 318.59543
-    width: 109.7561
+    width: 74.83517
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8439,9 +8438,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 337.4227
-    y: 324.24744
-    width: 82.926834
+    x: 338.5216
+    y: 325.34634
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8817,7 +8816,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 161.11209
     y: 278.06403
-    width: 104.87805
+    width: 70.43956
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9553,7 +9552,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 277.66183
     y: 478.88657
-    width: 93.902435
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9712,7 +9711,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 352.60254
     y: 399.37778
-    width: 142.68292
+    width: 111.09891
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10720,7 +10719,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 174.76448
     y: 344.9976
-    width: 104.87805
+    width: 70.43956
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15820,6 +15819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 0
+  shootSound: {fileID: 8300000, guid: f405d6655c5c6f94a8588e78f18ce261, type: 3}
 --- !u!114 &1632427618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18448,6 +18448,133 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022542348}
   m_CullTransparentMesh: 0
+--- !u!1 &2023947690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2023947692}
+  - component: {fileID: 2023947691}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &2023947691
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023947690}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 26dfc57970f518342afe6017eaf0e71e, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &2023947692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023947690}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.06142058, y: 0.14540383, z: -0.044982385}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2073239161
 GameObject:
   m_ObjectHideFlags: 0

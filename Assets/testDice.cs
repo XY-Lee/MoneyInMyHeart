@@ -5,9 +5,12 @@ using Fungus;
 public class testDice : MonoBehaviour {
 
   public int value = 0;
-  // Start is called before the first frame update
-  void Start() {
+    // Start is called before the first frame update
 
+  public AudioClip shootSound;
+  private AudioSource m_AudioSource;
+  void Start() {
+    m_AudioSource = GetComponent<AudioSource>();
   }
 
   // determine a random color
@@ -48,8 +51,10 @@ public class testDice : MonoBehaviour {
     die.GetComponent<Rigidbody>().AddForce(new Vector3(0,0,20), ForceMode.Impulse);
     // apply a random torque
     die.GetComponent<Rigidbody>().AddTorque(new Vector3(-50, -50, -50), ForceMode.Impulse);
-    //Dice.Roll("1d6", "d6-" + randomColor, v, Force());
-  }
+        //Dice.Roll("1d6", "d6-" + randomColor, v, Force());
+    //m_AudioSource.clip = shootSound;
+    //m_AudioSource.Play();
+    }
 
   public void hideDice() {
     GameObject pos = GameObject.Find("暫時放骰子的平面定位點");
