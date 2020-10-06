@@ -5806,7 +5806,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 604.47626
     y: 447.16284
-    width: 98.351654
+    width: 93.95605
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5834,7 +5834,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 165.44682
     y: 422.45844
-    width: 98.351654
+    width: 93.95605
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6257,7 +6257,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 185.40277
     y: 224.7848
-    width: 98.351654
+    width: 93.95605
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6551,7 +6551,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 547
     y: 218
-    width: 98.351654
+    width: 93.95605
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7731,7 +7731,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 410.0309
     y: 279.9691
-    width: 122.52747
+    width: 115.93407
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7765,7 +7765,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 572.7782
     y: 318.59543
-    width: 114.83517
+    width: 111.53847
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8442,7 +8442,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 338.5216
     y: 325.34634
-    width: 86.26373
+    width: 82.96703
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8819,7 +8819,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 161.11209
     y: 278.06403
-    width: 110.43956
+    width: 104.94505
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9555,7 +9555,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 277.66183
     y: 478.88657
-    width: 98.351654
+    width: 93.95605
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9714,7 +9714,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 352.60254
     y: 399.37778
-    width: 151.0989
+    width: 144.5055
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10722,7 +10722,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 174.76448
     y: 344.9976
-    width: 110.43956
+    width: 104.94505
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12177,7 +12177,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: ec5c52b5983aa9d42b80425ebece3312, type: 3}
     m_FontSize: 57
     m_FontStyle: 0
     m_BestFit: 0
@@ -14331,7 +14331,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: ec5c52b5983aa9d42b80425ebece3312, type: 3}
     m_FontSize: 86
     m_FontStyle: 0
     m_BestFit: 0
@@ -14786,7 +14786,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: ec5c52b5983aa9d42b80425ebece3312, type: 3}
     m_FontSize: 57
     m_FontStyle: 0
     m_BestFit: 0
@@ -14894,7 +14894,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: ec5c52b5983aa9d42b80425ebece3312, type: 3}
     m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 0
@@ -15061,7 +15061,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: ec5c52b5983aa9d42b80425ebece3312, type: 3}
     m_FontSize: 65
     m_FontStyle: 2
     m_BestFit: 0
@@ -15839,6 +15839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 0
+  shootSound: {fileID: 0}
 --- !u!114 &1632427618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18179,7 +18180,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: ec5c52b5983aa9d42b80425ebece3312, type: 3}
     m_FontSize: 62
     m_FontStyle: 0
     m_BestFit: 0
